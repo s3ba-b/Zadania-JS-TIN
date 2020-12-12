@@ -1,76 +1,25 @@
-class Car {
+require('stream')
 
-    constructor(year, mileage, starting_price) {
-        this.year = year
-        this.mileage = mileage
-        this.starting_price = starting_price
-        this.final_price = starting_price
-    }
-    
-    IncreaseStartingPriceBy1000() {
-        this.starting_price += 1000
-    }
+function factorial(n)
+{
+    let c;
+    let result = 1;
 
-    LowerFinalPriceBy1000ForEachYear() {
-        this.final_price -= 1000 * (2020-this.year)
-    }
+    for (c = 1; c <= n; c++)
+        result = result*c;
 
-    LowerFinalPriceBy1000ForEach100000km() {
-        this.final_price -= 1000 * (this.mileage/100000)
-    }
-
-    ChangeMileageAndYear(mileage, year) {
-        this.mileage = mileage
-        this.year = year
-        this.LowerFinalPriceBy1000ForEachYear()
-        this.LowerFinalPriceBy1000ForEach100000km()
-    }
-
-    IncreaseYearByOne() {
-        this.year += 1
-    }
+    return result;
 }
 
-class Cars {
+let i, n = 10, c;
 
-    constructor(carArray) {
-        this.carArray = carArray
-    }
+for (i = 0; i < n; i++)
+{
+    for (c = 0; c <= (n - i - 2); c++)
+        process.stdout.write(" ");
 
-    WriteToCarArray(car) {
-        //if(car.final_price > 10000)
-            this.carArray.push(car)
-    }
+    for (c = 0 ; c <= i; c++)
+        process.stdout.write(factorial(i)/(factorial(c)*factorial(i-c)) + " ");
 
-    IncreaseYearByOneForEachCarHelper(car) {
-        car.year += 1
-    }
-
-    IncreaseYearByOneForEachCar() {
-        this.carArray.forEach(this.IncreaseYearByOneForEachCarHelper)
-    }
+    process.stdout.write("\n");
 }
-
-car = new Car(2005, 300000, 20000)
-console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
-
-car.IncreaseStartingPriceBy1000()
-console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
-
-car.LowerFinalPriceBy1000ForEachYear()
-console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
-
-car.LowerFinalPriceBy1000ForEach100000km()
-console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
-
-car.ChangeMileageAndYear(150000, 2008)
-console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
-
-cars = new Cars([])
-console.log(cars.carArray)
-
-cars.WriteToCarArray(car)
-console.log(cars.carArray)
-
-cars.IncreaseYearByOneForEachCar()
-console.log(cars.carArray)
