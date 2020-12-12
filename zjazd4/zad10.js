@@ -25,10 +25,6 @@ class Car {
         this.LowerFinalPriceBy1000ForEachYear()
         this.LowerFinalPriceBy1000ForEach100000km()
     }
-
-    IncreaseYearByOne() {
-        this.year += 1
-    }
 }
 
 class Cars {
@@ -38,7 +34,7 @@ class Cars {
     }
 
     WriteToCarArray(car) {
-        //if(car.final_price > 10000)
+        if(car.final_price > 10000)
             this.carArray.push(car)
     }
 
@@ -51,7 +47,7 @@ class Cars {
     }
 }
 
-car = new Car(2005, 300000, 20000)
+car = new Car(2005, 300000, 50000)
 console.log("%d %d %d %d", car.year, car.mileage, car.starting_price, car.final_price)
 
 car.IncreaseStartingPriceBy1000()

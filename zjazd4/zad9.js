@@ -11,15 +11,19 @@ function factorial(n)
     return result;
 }
 
-let i, n = 10, c;
+function main() {
+    let i, n = 10, c;
 
-for (i = 0; i < n; i++)
-{
-    for (c = 0; c <= (n - i - 2); c++)
-        process.stdout.write(" ");
+    for (i = 0; i < n; i++)
+    {
+        for (c = 0; c <= (n - i - 2); c++)
+            process.stdout.write(" ");
 
-    for (c = 0 ; c <= i; c++)
-        process.stdout.write(factorial(i)/(factorial(c)*factorial(i-c)) + " ");
+        for (c = 0 ; c <= i; c++)
+            process.stdout.write(factorial(i)/(factorial(c)*factorial(i-c)) + " ");
 
-    process.stdout.write("\n");
+        process.stdout.write("\n");
+    }
 }
+
+main()

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ace5f305-75cc-454d-9e52-1bfb2be8e8d9" name="Default Changelist" comment="" />
+    <list default="true" id="ace5f305-75cc-454d-9e52-1bfb2be8e8d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjazd4/zad10.js" beforeDir="false" afterPath="$PROJECT_DIR$/zjazd4/zad10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjazd4/zad9.js" beforeDir="false" afterPath="$PROJECT_DIR$/zjazd4/zad9.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,33 +18,41 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lWUh6uIU9q5TIJSqQajUk2jdLy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.4.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.12" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.zad9.js">
+  <component name="RunManager" selected="Node.js.zad10.js">
     <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="zad4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zad4.js" working-dir="$PROJECT_DIR$">
+    <configuration name="zad10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zjazd4/zad10.js" working-dir="$PROJECT_DIR$/zjazd4">
       <method v="2" />
     </configuration>
-    <configuration name="zad5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zad5.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="zad6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zad6.js" working-dir="$PROJECT_DIR$">
+    <configuration name="zad6.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zjazd4/zad6.js" working-dir="$PROJECT_DIR$/zjazd4">
       <method v="2" />
     </configuration>
     <configuration name="zad7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zad7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="zad9.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zjazd4/zad9.js" working-dir="$PROJECT_DIR$/zjazd4">
       <method v="2" />
     </configuration>
     <configuration name="zad9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/zad9.js" working-dir="$PROJECT_DIR$">
@@ -48,19 +60,19 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.Unnamed" />
-      <item itemvalue="Node.js.zad4.js" />
-      <item itemvalue="Node.js.zad5.js" />
-      <item itemvalue="Node.js.zad6.js" />
       <item itemvalue="Node.js.zad7.js" />
       <item itemvalue="Node.js.zad9.js" />
+      <item itemvalue="Node.js.zad9.js (1)" />
+      <item itemvalue="Node.js.zad6.js (1)" />
+      <item itemvalue="Node.js.zad10.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.zad10.js" />
+        <item itemvalue="Node.js.zad9.js (1)" />
+        <item itemvalue="Node.js.zad6.js (1)" />
         <item itemvalue="Node.js.zad9.js" />
         <item itemvalue="Node.js.zad7.js" />
-        <item itemvalue="Node.js.zad6.js" />
-        <item itemvalue="Node.js.zad5.js" />
-        <item itemvalue="Node.js.zad4.js" />
       </list>
     </recent_temporary>
   </component>
@@ -73,10 +85,25 @@
       <option name="presentableId" value="Default" />
       <updated>1607712456943</updated>
       <workItem from="1607712457972" duration="8720000" />
+      <workItem from="1607758909850" duration="1640000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
